@@ -5,12 +5,31 @@ body {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: left;
-    padding: 2vh 10vw;
-    min-height: 3000px;
+    min-height: 4000px;
+}
+
+body h1 {
+    padding-top: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+body ol {
+    padding-left: 6vw;
+    padding-right: 2vw;
+}
+
+body h2 {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+body *:not(iframe) {
 }
 
 body iframe {
     height: 7000px;
+    padding-bottom: 10vw;
 }
 
 body li {
