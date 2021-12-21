@@ -26,6 +26,7 @@ body div.btt {
     color: white;
     font-weight: bold;
     cursor: pointer;
+    font-size: 3vh;
 }
 
 body ol {
@@ -36,6 +37,7 @@ body ol {
 body h2 {
     padding-left: 2vw;
     padding-right: 2vw;
+    font-size: 2.5vh;
 }
 
 body div.iframe-div {
