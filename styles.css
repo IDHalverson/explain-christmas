@@ -4,13 +4,28 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    align-items: left;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 body h1 {
     padding-top: 10vw;
     padding-left: 2vw;
     padding-right: 2vw;
+}
+
+body div.btt {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1vw;
+    background: rgb(0 159 183);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 body ol {
@@ -23,12 +38,15 @@ body h2 {
     padding-right: 2vw;
 }
 
-body *:not(iframe) {
+body div.iframe-div {
+    height: 4000px;
+    overflow-y: auto;
 }
 
 body iframe {
-    height: 4000px;
-    padding-bottom: 10vw;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 body li {
