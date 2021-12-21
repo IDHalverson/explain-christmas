@@ -19,14 +19,13 @@ body h1 {
 
 body div.btt {
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
-    padding: 1vw;
     background: rgb(0 159 183);
     color: white;
     font-weight: bold;
     cursor: pointer;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 body ol {
